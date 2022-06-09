@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+}
+header{
+    widows: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    font-family: 'Arvo', serif;
+    color: #fff;
+    line-height: 1.4;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 5px;
+    color: white;
+}
+.h1{
+    font-size: 50px;
+    margin-top: 85px;
+    position: relative;
+    animation-name: judesys;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin: 40px;
+    position: relative;
+    animation-name: judesys;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+.a{
+    display: block;
+    width: 200px;
+    height: 55px;
+    background-color: #ca970B;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    position: relative;
+    animation-name: judesys;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.9s;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+@keyframes judesys{
+    0%{top: 0; left:0;}
+    100%{top: 0; left: -600px; opacity: 0;}
+}
+h2{
+    font-family: verdana;
+    font-size: 40px;
+    margin: 20px;
+}
+main{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+main p{
+    width: 40%;
+    line-height: 2em;
+    text-align: justify;
+    font-family: verdana;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    float: left;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    padding-top: 45px;
+}
+footer p{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
